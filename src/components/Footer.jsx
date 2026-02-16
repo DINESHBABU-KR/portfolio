@@ -4,9 +4,12 @@ import { Container } from 'react-bootstrap';
 const Footer = () => {
   return (
     <footer style={{ marginTop: 'auto', padding: '2rem 0', borderTop: '2px solid var(--ink-color)', textAlign: 'center' }}>
-      <Container>
+     <Container>
+        <p className="mb-1">
+          Full-Stack Developer | Building Scalable Web & Blockchain Applications
+        </p>
         <p className="mb-0">
-          Handmade with &hearts; using React & Bootstrap. &copy; {new Date().getFullYear()}
+          © {new Date().getFullYear()} Dinesh Babu. All rights reserved.
         </p>
       </Container>
     </footer>

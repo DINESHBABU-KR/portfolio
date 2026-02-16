@@ -67,11 +67,11 @@ const Home = () => {
         <Col md={10}>
           <div className="d-flex justify-content-center flex-wrap gap-4">
             {[
-              { name: "LinkedIn", icon: <FaLinkedin size={30} />, link: "#" },
-              { name: "GitHub", icon: <FaGithub size={30} />, link: "#" },
+              { name: "LinkedIn", icon: <FaLinkedin size={30} />, link: "https://www.linkedin.com/in/dinesh-babu-k-r/" },
+              // { name: "GitHub", icon: <FaGithub size={30} />, link: "#" },
               // { name: "Dev.to", icon: <FaDev size={30} />, link: "#" },
               // { name: "Medium", icon: <FaMedium size={30} />, link: "#" },
-              { name: "Leetcode", icon: <SiLeetcode size={30} />, link: "#" }
+              { name: "Leetcode", icon: <SiLeetcode size={30} />, link: "https://leetcode.com/u/Dhina/" }
             ].map((social, index) => (
               <a
                 key={index}
