@@ -1,18 +1,17 @@
 import React from 'react';
-import logoBrand from '../assets/logo-brand.png';
-import './Footer.css';
+import { Container } from 'react-bootstrap';
 
 const Footer = () => {
   return (
-    <footer className="footer-section">
-      <div className="container footer-container">
-        <div className="footer-logo">
-          <img src={logoBrand} alt="Adex Logo" className="footer-logo-img" />
-        </div>
-        <p className="footer-copy">
-          &copy; {new Date().getFullYear()} Advanced Digital Excellence. All rights reserved.
+    <footer style={{ marginTop: 'auto', padding: '2rem 0', borderTop: '2px solid var(--ink-color)', textAlign: 'center' }}>
+     <Container>
+        <p className="mb-1">
+          Full-Stack Developer | Building Scalable Web & Blockchain Applications
         </p>
-      </div>
+        <p className="mb-0">
+          © {new Date().getFullYear()} Dinesh Babu. All rights reserved.
+        </p>
+      </Container>
     </footer>
   );
 };
